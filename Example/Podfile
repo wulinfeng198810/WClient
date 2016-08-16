@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WClient_Example' do
+  pod 'WClient', :path => '../'
+
+  target 'WClient_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+  end
+end

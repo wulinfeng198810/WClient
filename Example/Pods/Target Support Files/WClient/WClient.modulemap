@@ -1,0 +1,6 @@
+framework module WClient {
+  umbrella header "WClient-umbrella.h"
+
+  export *
+  module * { export * }
+}

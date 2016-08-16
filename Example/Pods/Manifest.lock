@@ -1,0 +1,19 @@
+PODS:
+  - Kiwi (2.4.0)
+  - WClient (0.1.0)
+
+DEPENDENCIES:
+  - Kiwi
+  - WClient (from `../`)
+
+EXTERNAL SOURCES:
+  WClient:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
+  WClient: 6801aff950f817e712c6beffc61924541713efd5
+
+PODFILE CHECKSUM: 0cd2fc9b4796d4b7428d7e35281db10dceea6bae
+
+COCOAPODS: 1.0.1
