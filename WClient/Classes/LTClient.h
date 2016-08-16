@@ -562,6 +562,9 @@
  */
 - (void)applicationWillEnterForeground:(id)aApplication;
 
+/**
+ *  下载
+ */
 + (void)down;
 
 @end
