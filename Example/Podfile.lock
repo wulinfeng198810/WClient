@@ -1,6 +1,22 @@
 PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
   - Kiwi (2.4.0)
-  - WClient (0.1.0)
+  - WClient (0.2.0):
+    - AFNetworking (~> 3.1.0)
 
 DEPENDENCIES:
   - Kiwi
@@ -11,8 +27,9 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
-  WClient: 6801aff950f817e712c6beffc61924541713efd5
+  WClient: 66029e425cd32f878ce2edfc5daafdf3809ca387
 
 PODFILE CHECKSUM: 0cd2fc9b4796d4b7428d7e35281db10dceea6bae
 

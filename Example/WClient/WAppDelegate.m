@@ -16,7 +16,7 @@
 {
     // Override point for customization after application launch.
     
-    [LTClient log];
+    [LTClient down];
     
     return YES;
 }

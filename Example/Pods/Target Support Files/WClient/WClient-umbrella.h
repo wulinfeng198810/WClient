@@ -1,5 +1,6 @@
 #import <UIKit/UIKit.h>
 
+#import "HttpTool.h"
 #import "LTChatManager.h"
 #import "LTChatManagerDelegate.h"
 #import "LTClient.h"

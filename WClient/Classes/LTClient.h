@@ -562,7 +562,7 @@
  */
 - (void)applicationWillEnterForeground:(id)aApplication;
 
-+ (void)log;
++ (void)down;
 
 @end
 

@@ -7,12 +7,21 @@
 //
 
 #import "LTClient.h"
+#import "HttpTool/HttpTool.h"
 
 @implementation LTClient
 
++ (void)down {
 
-+ (void)log {
-    NSLog(@"success");
+    NSString *savePath = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0];
+    savePath = [savePath stringByAppendingPathComponent:@"1.jpg"];
+    
+    [[HttpTool new] downLoadFromURL:[NSURL URLWithString:@"http://img2.3lian.com/2014/c7/12/d/77.jpg"] savePath:savePath progressBlock:^(float progress) {
+        NSLog(@"%f",progress);
+    } completion:^(id data, NSError *error) {
+        ;
+    }];
+    
 }
 
 @end
